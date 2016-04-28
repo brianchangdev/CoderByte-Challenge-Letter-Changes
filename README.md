@@ -12,7 +12,8 @@
      // now do same with vowels  
     var vowel = /[aeiou]/g;
     // now to uppercase all vowels
-    newStr.replace(vowel, replaceVowel);
+    newStr = newStr.replace(vowel, replaceVowel);
+
      return newStr; 
     }
 
