@@ -25,9 +25,14 @@
      }
      // create variable that will default the char to its ascii number
      // example: 'ABC'.charCodeAt(0); // returns 65
+     
       var ascii = match.charCodeAt(0);
+      
        // and return calling String method add 1 to the ascii number to move to next leter in alphabet
        // example: if match is a, then var ascii is 65, + 1 = 66 or b
+       // fromCharCode() is a static method of String, you always use it as String.fromCharCode()
+       // fromCharCode() returns a string object based on ascii values
+       
       return String.fromCharCode(ascii + 1);
       }
     // function to replace vowels relating to above
